@@ -10,7 +10,7 @@ The Sorting Library crate provides a collection of sorting algorithms implemente
     ```bash
     git clone https://github.com/ornur/sorting-alg-rust
     ```
-    ![]()
+    ![gif]()
 
 2. To use this library in your Rust project, add it as a dependency in your `Cargo.toml` file::
     ```toml
@@ -18,7 +18,8 @@ The Sorting Library crate provides a collection of sorting algorithms implemente
     sorting_library = { path = "path/to/sorting_library" }
     ```
     Provide the correct path.
-    ![]()
+    
+    ![gif]()
 
 ## Usage
 ### Importing the Sorting Library
