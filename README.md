@@ -29,7 +29,7 @@ use sorting_library::sorting::{quick_sort, selection_sort}; // Import sorting fu
 use sorting_library::Sortable; // Import the Sortable trait
 ```
 
-![gif](https://github.com/ornur/sorting-alg-rust/blob/main/images/3.gif)
+<img src="https://github.com/ornur/sorting-alg-rust/blob/main/images/3.gif" width="300" alt="gif info">
 
 ### Using the Sorting Functions
 You can now use the sorting functions provided by the library to sort various types of data. For example:
@@ -47,7 +47,9 @@ fn main() {
     println!("Sorted words: {:?}", words);
 }
 ```
-![gif](https://github.com/ornur/sorting-alg-rust/blob/main/images/4.gif)
+
+<img src="https://github.com/ornur/sorting-alg-rust/blob/main/images/4.gif" width="300" alt="gif info">
+
 ### Implementing Sortable for Custom Types
 You can implement the Sortable trait for custom types to enable sorting operations on them. Here's an example:
 ```rust
