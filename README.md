@@ -10,7 +10,7 @@ The Sorting Library crate provides a collection of sorting algorithms implemente
     ```bash
     git clone https://github.com/ornur/sorting-alg-rust
     ```
-    ![gif](https://github.com/ornur/sorting-alg-rust/blob/main/images/1.gif)
+    <img src="https://github.com/ornur/sorting-alg-rust/blob/main/images/1.gif" width="650" alt="gif info"><br><br>
 
 2. To use this library in your Rust project, add it as a dependency in your `Cargo.toml` file::
     ```toml
@@ -19,7 +19,7 @@ The Sorting Library crate provides a collection of sorting algorithms implemente
     ```
     Provide the correct path.
 
-    ![gif](https://github.com/ornur/sorting-alg-rust/blob/main/images/2.gif)
+    <img src="https://github.com/ornur/sorting-alg-rust/blob/main/images/2.gif" width="650" alt="gif info"><br><br>
 
 ## Usage
 ### Importing the Sorting Library
@@ -29,7 +29,7 @@ use sorting_library::sorting::{quick_sort, selection_sort}; // Import sorting fu
 use sorting_library::Sortable; // Import the Sortable trait
 ```
 
-<img src="https://github.com/ornur/sorting-alg-rust/blob/main/images/3.gif" width="300" alt="gif info">
+<img src="https://github.com/ornur/sorting-alg-rust/blob/main/images/3.gif" width="650" alt="gif info"><br><br>
 
 ### Using the Sorting Functions
 You can now use the sorting functions provided by the library to sort various types of data. For example:
@@ -48,7 +48,7 @@ fn main() {
 }
 ```
 
-<img src="https://github.com/ornur/sorting-alg-rust/blob/main/images/4.gif" width="300" alt="gif info">
+<img src="https://github.com/ornur/sorting-alg-rust/blob/main/images/4.gif" width="650" alt="gif info"><br><br>
 
 ### Implementing Sortable for Custom Types
 You can implement the Sortable trait for custom types to enable sorting operations on them. Here's an example:
@@ -81,13 +81,13 @@ fn main() {
 }
 
 ```
-![gif](https://github.com/ornur/sorting-alg-rust/blob/main/images/5.gif)
+<img src="https://github.com/ornur/sorting-alg-rust/blob/main/images/5.gif" width="650" alt="gif info"><br><br>
 ### Running Tests
 To run the tests included in the sorting library, use the following command:
 ```bash
 cargo test
 ```
-![gif](https://github.com/ornur/sorting-alg-rust/blob/main/images/6.gif)
+<img src="https://github.com/ornur/sorting-alg-rust/blob/main/images/6.gif" width="650" alt="gif info"><br><br>
 ## Licence
 - https://github.com/flakusha/sorting_rs/blob/master/LICENSE
 - https://www.geeksforgeeks.org/sorting-algorithms/
