@@ -6,7 +6,7 @@ The Sorting Library crate provides a collection of sorting algorithms implemente
 - Insertion Sort
 
 ## Installation
-1. Clone the repository and extract it:
+1. Clone the repository:
     ```bash
     git clone https://github.com/ornur/sorting-alg-rust
     ```
