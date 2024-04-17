@@ -15,7 +15,7 @@ The Sorting Library crate provides a collection of sorting algorithms implemente
 2. To use this library in your Rust project, add it as a dependency in your `Cargo.toml` file::
     ```toml
     [dependencies]
-    sorting_library = { path = "path/to/sorting_library" }
+    sorting_library = { path = "path/to/sorting-alg-rust" }
     ```
     Provide the correct path.
 
@@ -28,6 +28,9 @@ Import the sorting functions and the Sortable trait into your Rust code:
 use sorting_library::sorting::{quick_sort, selection_sort}; // Import sorting functions
 use sorting_library::Sortable; // Import the Sortable trait
 ```
+
+![gif](https://github.com/ornur/sorting-alg-rust/blob/main/images/3.gif)
+
 ### Using the Sorting Functions
 You can now use the sorting functions provided by the library to sort various types of data. For example:
 
@@ -44,6 +47,7 @@ fn main() {
     println!("Sorted words: {:?}", words);
 }
 ```
+![gif](https://github.com/ornur/sorting-alg-rust/blob/main/images/4.gif)
 ### Implementing Sortable for Custom Types
 You can implement the Sortable trait for custom types to enable sorting operations on them. Here's an example:
 ```rust
@@ -75,11 +79,13 @@ fn main() {
 }
 
 ```
+![gif](https://github.com/ornur/sorting-alg-rust/blob/main/images/5.gif)
 ### Running Tests
 To run the tests included in the sorting library, use the following command:
 ```bash
 cargo test
 ```
+![gif](https://github.com/ornur/sorting-alg-rust/blob/main/images/6.gif)
 ## Licence
 - https://github.com/flakusha/sorting_rs/blob/master/LICENSE
 - https://www.geeksforgeeks.org/sorting-algorithms/
