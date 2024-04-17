@@ -8,7 +8,7 @@ The Sorting Library crate provides a collection of sorting algorithms implemente
 ## Installation
 1. Clone the repository and extract it:
     ```bash
-    git clone link
+    git clone https://github.com/ornur/sorting-alg-rust
     ```
     ![]()
 
